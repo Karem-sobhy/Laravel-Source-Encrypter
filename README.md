@@ -10,7 +10,7 @@
 
 This package encrypts your php code with [phpBolt](https://phpbolt.com) 
 
-*For Laravel and Lumen 6, 7, 8, 9*
+*For Laravel and Lumen 6, 7, 8, 9, 10, 11*
 
 * [Installation](#installation)
 * [Usage](#usage)
@@ -24,7 +24,7 @@ At the first, You have to [install phpBolt](https://phpbolt.com/download-phpbolt
 ### Step 2
 Require the package with composer using the following command:
 ```bash
-composer require --dev sbamtr/laravel-source-encrypter
+composer require --dev Karem-sobhy/laravel-source-encrypter
 ```
 ### Step 3
 #### For Laravel
@@ -32,21 +32,21 @@ The service provider will automatically get registered. Or you may manually add 
 ```php
 'providers' => [
     // ...
-    \sbamtr\LaravelSourceEncrypter\SourceEncryptServiceProvider::class,
+    \Karem-sobhy\LaravelSourceEncrypter\SourceEncryptServiceProvider::class,
 ];
 ```
 
 #### For Lumen
 Add this line of code under the `Register Service Providers` section of your `bootstrap/app.php`:
 ```php
-$app->register(\sbamtr\LaravelSourceEncrypter\SourceEncryptServiceProvider::class);
+$app->register(\Karem-sobhy\LaravelSourceEncrypter\SourceEncryptServiceProvider::class);
 ```
 
 
 ### Step 4 (Optional)
 You can publish the config file with this following command:
 ```bash
-php artisan vendor:publish --provider="sbamtr\LaravelSourceEncrypter\SourceEncryptServiceProvider" --tag=config
+php artisan vendor:publish --provider="Karem-sobhy\LaravelSourceEncrypter\SourceEncryptServiceProvider" --tag=config
 ```
 **Note:** If you are using Lumen, you have to use [this package](https://github.com/laravelista/lumen-vendor-publish).
 

@@ -1,5 +1,5 @@
 {
-  "name": "Karem-sobhy/laravel-source-encrypter",
+  "name": "karem-sobhy/laravel-source-encrypter",
   "keywords": [
     "laravel",
     "lumen",
@@ -28,7 +28,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Karem-sobhy\\LaravelSourceEncrypter\\": "src"
+      "karem-sobhy\\LaravelSourceEncrypter\\": "src"
     }
   },
   "config": {
@@ -38,7 +38,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Karem-sobhy\\LaravelSourceEncrypter\\SourceEncryptServiceProvider"
+        "karem-sobhy\\LaravelSourceEncrypter\\SourceEncryptServiceProvider"
       ]
     }
   }

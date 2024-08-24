@@ -28,7 +28,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "karem-sobhy\\LaravelSourceEncrypter\\": "src"
+      "karemsobhy\\LaravelSourceEncrypter\\": "src"
     }
   },
   "config": {

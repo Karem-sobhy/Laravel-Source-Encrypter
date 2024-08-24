@@ -22,13 +22,13 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Siavash Bamshadnia",
-      "email": "sbamtr@gmail.com"
+      "name": "Karem Sobhy",
+      "email": "admin@karemcloud.com"
     }
   ],
   "autoload": {
     "psr-4": {
-      "sbamtr\\LaravelSourceEncrypter\\": "src"
+      "Karem-sobhy\\LaravelSourceEncrypter\\": "src"
     }
   },
   "config": {
@@ -38,7 +38,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "sbamtr\\LaravelSourceEncrypter\\SourceEncryptServiceProvider"
+        "Karem-sobhy\\LaravelSourceEncrypter\\SourceEncryptServiceProvider"
       ]
     }
   }

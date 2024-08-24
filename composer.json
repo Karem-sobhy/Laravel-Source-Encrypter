@@ -38,7 +38,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "karem-sobhy\\LaravelSourceEncrypter\\SourceEncryptServiceProvider"
+        "karemsobhy\\LaravelSourceEncrypter\\SourceEncryptServiceProvider"
       ]
     }
   }

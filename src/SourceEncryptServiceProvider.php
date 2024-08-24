@@ -9,7 +9,7 @@
  * @link        https://github.com/SiavashBamshadnia/Laravel-Source-Encrypter
  */
 
-namespace sbamtr\LaravelSourceEncrypter;
+namespace karemsobhy\LaravelSourceEncrypter;
 
 use Illuminate\Support\ServiceProvider;
 
